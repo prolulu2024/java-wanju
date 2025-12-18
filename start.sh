@@ -3,8 +3,8 @@
 # 喜欢就点亮星星，不知道的参数保持默认
 
 # =======cf隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-'eyJhIjoiOWY2ODlkYjlhZDNmM2VmMTc1MTcwNThjZjI3MTQwZTIiLCJ0IjoiYWIzODA4YzgtMzIyNS00ODhjLWIzODQtYTY1NjE3MTA4MzM2IiwicyI6Ik56QTNZVFkzT0dZdFpqSmhNQzAwTUdJeExUa3dOVEF0TXpnMVlUYzFNakJrWmpVMSJ9'}  # 隧道token或json
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'delu.ccllins.qzz.io'} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiNmIyZjE1N2Y5ZmQ5ZjE3YzJjMzQ0NDY5NzBlNGNiOGMiLCJ0IjoiYzFiYzBiYjYtZGUwNi00YjhkLWFhY2QtZTVhMmZmNGM1ZDNkIiwicyI6IlpUWTFNV0kxWWpRdE16YzVNQzAwWlRSaUxUZ3dNbU10T0dFeU9USXpaVFE0WW1FMiJ9'}  # 隧道token或json
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'n2.amaxin.ggff.net'} # 隧道域名
 # export TUNNEL_PROXY=${TUNNEL_PROXY:-''} # socks5代理
 
 # =======节点上传TG，Telegram配置 - 格式: "CHAT_ID BOT_TOKEN"，中间是空格
@@ -26,10 +26,10 @@ export NEZHA_TLS=${NEZHA_TLS:-'0'}  # 1启用tls,0关闭tls
 # ======节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,spl,xhttp,rel,hy2,tuic，sock,3x,ech
 # export EKEY=${EKEY:-'ech123456'}  # ech密钥,默认随机
-export VL_PORT=${VL_PORT:-'3206'} #vles 端口
-export VM_PORT=${VM_PORT:-'443'} #vmes 端口
+export VL_PORT=${VL_PORT:-'8002'} #vles 端口
+export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
-export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称，配合哪吒面板v1可以自动设置面板名称
+export SUB_NAME=${SUB_NAME:-'lunes2'} # 节点名称，配合哪吒面板v1可以自动设置面板名称
 export second_port=${second_port:-''} # 可选，第二端口，部分玩具支持设置第二端口
 #export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 设置节点固定的UUID,否则使用随机UUID
 
